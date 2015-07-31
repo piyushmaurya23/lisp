@@ -3,7 +3,7 @@ language: lisp
 
 env:
   matrix:
-    - LISP=abcl
+    - LISP=clisp
 matrix:
   allow_failures:
     # CIM not available for CMUCL
